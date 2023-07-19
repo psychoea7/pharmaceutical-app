@@ -1,0 +1,94 @@
+.header__container {
+  background-image: url(../Assets/pharmaceutical-background.jpg);
+  /* height: 60vh; */
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.header__overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.header__logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 5rem;
+  width: 10rem;
+}
+
+.header__text-wrapper {
+  position: relative;
+  z-index: 100;
+}
+
+.header__text {
+  text-align: center;
+  color: var(--clr-white);
+  padding-top: 3rem;
+}
+
+.header__services {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem 5rem 8rem 5rem;
+}
+
+
+.header__servicesItem {
+  background-color: var(--clr-primary);
+  color: var(--clr-white);
+  display: flex;
+  flex-direction: column; /* Add this line to stack the icon and text vertically */
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Add this line to center the text horizontally */
+  padding: 1rem; /* Add padding for spacing */
+  border-radius: 0.2vw;
+  transition: 0.3s all ease;
+  cursor: pointer;
+}
+
+.header__servicesItem:hover {
+  background-color: var(--clr-secondary);
+  color: var(--clr-accent);
+}
+
+.header__servicesItem:hover .header__serviceIcon {
+  transform: scale(1.1);
+}
+
+.header__servicesItem span {
+  margin-top: 0.5rem; /* Add margin between the icon and text */
+}
+
+@media only screen and (max-width: 650px){
+  .header__text {
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+  }
+  
+	.header__services {
+    padding: 0;
+  }
+
+  .header__servicesItem {
+    margin-top: 1rem;
+  }
+  .header__container {
+    padding-bottom: 5rem;
+  }
+}
+
+
+
+
+
+
+

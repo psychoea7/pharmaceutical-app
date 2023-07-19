@@ -1,0 +1,20 @@
+.serviceInfo__container h4 {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+.serviceInfo__container p {
+  color: var(--clr-grey);
+  font-size: 0.9rem;
+}
+.serviceInfo__container ul {
+  list-style: none;
+}
+.serviceInfo__container ul li {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.serviceInfo__icon {
+  margin-left: 5px;
+  color: var(--clr-accent);
+}
