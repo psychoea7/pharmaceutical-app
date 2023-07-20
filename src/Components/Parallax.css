@@ -1,0 +1,80 @@
+.parallax__container {
+  background-image: url(../Assets/students.jpg);
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed; /* This creates the parallax effect */
+  position: relative;
+  overflow: hidden;
+}
+
+/* Styling for the parallax row */
+.parallax__row {
+  position: relative;
+  height: 100%;
+  /* background-size: cover;
+  background-position: center; */
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/* Styling for the dark overlay */
+.parallax__row::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.6
+  ); /* Adjust the opacity (last value) to control darkness */
+}
+
+/* Styling for the parallax item (icons and description) */
+.parallax__item {
+  position: relative; /* Added to control stacking order */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: var(--clr-white); /* Text color for icons and descriptions */
+  z-index: 1; /* Adjust the z-index to bring the items above the overlay */
+}
+
+/* Styling for the Font Awesome icons */
+.parallax__icon {
+  font-size: 1.8rem; /* Adjust the size of the icons */
+  background-color: var(--clr-accent);
+  padding: 0.7rem;
+  border-radius: 0.3vw;
+  border: 2px solid var(--clr-white);
+}
+
+/* Styling for the description text */
+.parallax__description {
+  margin-top: 1rem;
+  text-align: center;
+}
+.parallax__description h5 {
+  font-size: 0.9rem;
+}
+/* Styling for the number counter */
+.parallax__description span {
+  font-size: 1.5rem; /* Adjust the size of the counter number */
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 650px){
+    .parallax__icon {
+        margin-top: 3rem;
+    }
+    .parallax__row {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+      }
+  }
+  

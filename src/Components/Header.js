@@ -3,7 +3,7 @@ import "./Header.css";
 import { Col, Container, Row } from "react-bootstrap";
 import HeaderLogo from "../Assets/logo.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBorderNone, faCoffee, faDna, faShieldVirus, faVirus } from "@fortawesome/free-solid-svg-icons";
+import { faBorderNone, faDna, faShieldVirus, faVirus } from "@fortawesome/free-solid-svg-icons";
 
 function Header() {
   return (
