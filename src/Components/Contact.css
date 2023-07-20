@@ -14,5 +14,7 @@
 .contact__container a {
   color: var(--clr-white);
   font-size: 1.1rem;
+  margin-top: 0.9rem;
+  letter-spacing: 0.1rem;
   text-decoration: none;
 }

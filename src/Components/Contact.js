@@ -20,7 +20,7 @@ function Contact() {
           </span>
         </Col>
         <Col xs={12} md={6} className="d-flex justify-content-end">
-          <a href="tel:+1234567890">۰۹۱۲۱۱۱۲۲۳۳</a>
+          <a href="tel:+989121112233">۰۹۱۲۱۱۱۲۲۳۳</a>
           <FontAwesomeIcon
             className="contact__serviceIcon"
             icon={faPhone}
