@@ -4,6 +4,7 @@ import Header from "./Components/Header";
 import ServiceInfo from "./Components/ServiceInfo";
 import Parallax from "./Components/Parallax";
 import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <ServiceInfo />
       <Parallax />
       <Contact />
+      <Footer />
     </div>
   );
 }

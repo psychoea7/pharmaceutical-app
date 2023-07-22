@@ -1,0 +1,17 @@
+.footer__container {
+  margin-top: 2.5rem;
+}
+
+.footer__logo {
+  width: 100%;
+}
+
+.footer__about {
+  text-align: justify;
+  line-height: 1.8rem;
+  font-size: 0.9rem;
+}
+
+.footer__copyRight {
+  font-size: 0.8rem;
+}
